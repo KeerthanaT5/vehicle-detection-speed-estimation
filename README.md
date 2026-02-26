@@ -51,7 +51,7 @@ vehicle-detection-speed-estimation/
 - CSV file containing detected speeds
   
 ## 📊 Methodology Flowchart
-![Methodology(methodology_flowchart.jpg)
+![Methodology](methodology_flowchart.jpg)
 
 ## 🚗 Output Speed Estimation
 ![Output](output_speed_estimation.jpg)
