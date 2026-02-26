@@ -49,6 +49,16 @@ vehicle-detection-speed-estimation/
 - Speed estimation displayed on video frames
 - Output video with annotations
 - CSV file containing detected speeds
+  
+## 📊 Methodology Flowchart
+![Methodology(methodology_flowchart.jpg)
+
+## 🚗 Output Speed Estimation
+![Output](output_speed_estimation.jpg)
+
+## 📈 Performance Metrics
+![Performance](performance_metrics.jpg)
+
 
 ---
 
@@ -58,7 +68,7 @@ The model uses a pre-trained YOLOv8 model trained on the COCO dataset and perfor
 ---
 
 ## 📹 Dataset / Input Video
-The input video is a publicly available traffic surveillance video used for academic and testing purposes.  
+The input video is a publicly available traffic surveillance video used for academic and testig purposes.  
 A fixed camera angle and clear road view were chosen for accurate tracking and speed estimation.
 
 ---
