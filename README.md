@@ -44,6 +44,23 @@ vehicle-detection-speed-estimation/
 
 ---
 
+## ▶️ How to Run
+
+1. Install required libraries:
+   pip install -r requirements.txt
+
+2. Open the notebook:
+   speed_estimate.ipynb
+
+3. Provide a traffic video as input.
+
+4. Run all cells to perform:
+   - Vehicle detection
+   - Tracking
+   - Speed estimation
+
+---
+
 ## 📊 Results
 - Real-time vehicle detection
 - Speed estimation displayed on video frames
@@ -59,20 +76,27 @@ vehicle-detection-speed-estimation/
 ## 🚗 Output Speed Estimation
 ![Output](output_speed_estimation.jpg)
 
+*Figure 2: Sample output showing vehicle detection and speed estimation.*
+
 ## 📈 Performance Metrics
 ![Performance](performance_metrics.jpg)
 
+*Figure 3: Performance metrics comparing predicted and actual speeds.*
 
 ---
 
-## ⚡ Model Performance
+## ⚡ Model Details
 The model uses a pre-trained YOLOv8 model trained on the COCO dataset and performs real-time inference without additional training.
 
 ---
 
 ## 📹 Dataset / Input Video
-The input video is a publicly available traffic surveillance video used for academic and testig purposes.  
-A fixed camera angle and clear road view were chosen for accurate tracking and speed estimation.
+The system works with any traffic surveillance video having a fixed camera view and clear road visibility.
+
+For testing and demonstration, a publicly available traffic video was used.  
+However, users can provide their own traffic videos as input without any restriction.
+
+A stable camera angle helps improve tracking accuracy and speed estimation.
 
 ---
 
@@ -85,5 +109,14 @@ A fixed camera angle and clear road view were chosen for accurate tracking and s
 ---
 
 ## 👩‍💻 Author
-Mini Project (3rd Year BTech – IT)
+Mini Project – 3rd Year BTech (Information Technology)
+Gokaraju Lailavathi Engineering College
 
+---
+
+## 📌 Note
+
+This project uses a pre-trained YOLOv8 model trained on the COCO dataset and performs inference only.  
+No custom training was performed.
+
+---
