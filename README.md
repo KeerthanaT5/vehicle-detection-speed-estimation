@@ -53,6 +53,9 @@ vehicle-detection-speed-estimation/
 ## 📊 Methodology Flowchart
 ![Methodology](methodology_flowchart.jpg)
 
+*Figure 1: Proposed workflow for vehicle detection, tracking, and speed estimation using YOLOv8 and OpenCV.*
+
+
 ## 🚗 Output Speed Estimation
 ![Output](output_speed_estimation.jpg)
 
@@ -62,7 +65,7 @@ vehicle-detection-speed-estimation/
 
 ---
 
-## 📈 Performance
+## ⚡ Model Performance
 The model uses a pre-trained YOLOv8 model trained on the COCO dataset and performs real-time inference without additional training.
 
 ---
